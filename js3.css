@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+}
+body{
+    background-image: url(conception-affiche-premiere-cinema-film-fond-vecteur-cinema-ecran-cinema-ecran-blanc_165143-1170.avif);
+    background-size:cover;
+    background-color:whitesmoke;
+    background-repeat: no-repeat;
+    background-color: black;
+    color: antiquewhite;
+}
+header{
+    width: 100%;
+    height: 3em;
+    background-color: #fecc00;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+}
+header input {
+    height: 20px;
+    width: 200px;
+}
+#contenu{
+    display: flex;
+    justify-content: center;
+}
+.valider{
+ display: flex;
+ justify-content: center;   
+}
+h1{
+ text-align: center;   
+}
+@media screen and (max-width: 600px){
+    header input {
+        height: 20px;
+        width: 90px;
+    }
+    header button{
+        width: 80px;
+    }
+    header{
+        width: 100%;
+        height: 3em;
+        background-color: #fecc00;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+}   
